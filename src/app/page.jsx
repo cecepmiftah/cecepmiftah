@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
         {/* TEXT CONTAINER */}
         <div className="h-1/2 flex flex-col lg:h-full lg:w-1/2 items-center justify-center gap-8">
           {/* TITLE */}
-          <h1 className="text-4xl md:text-6xl font-bold">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
             Build Beutiful and Engaging User Interface
           </h1>
           {/* DESC */}
@@ -29,12 +30,16 @@ export default function Home() {
             commodi possimus? Enim, dolor reprehenderit.
           </p>
           <div className="w-full flex gap-4">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
-              View My Work
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
-              Contact Me
-            </button>
+            <Link href={"/portfolio"}>
+              <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+                View My Work
+              </button>
+            </Link>
+            <Link href={"/contact"}>
+              <button className="p-4 rounded-lg ring-1 ring-black">
+                Contact Me
+              </button>
+            </Link>
           </div>
         </div>
       </div>
