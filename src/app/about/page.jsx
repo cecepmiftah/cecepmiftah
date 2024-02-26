@@ -26,15 +26,17 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             <h1 className="font-bold text-2xl">BIOGRAPHI</h1>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-              illum asperiores assumenda id quo explicabo tenetur quia nisi sit
-              sunt?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Animi soluta sunt, maiores harum ipsum atque quisquam omnis
-              corrupti eius suscipit.
+              Saya adalah seorang frontend web developer yang berfokus pada
+              pembangunan antarmuka pengguna yang menarik dan responsif.Saya
+              mampu menciptakan pengalaman pengguna yang luar biasa. Saya juga
+              memiliki keahlian dalam menggunakan kerangka kerja frontend
+              ReactJS dan NextJSuntuk mempercepat pengembangan. Saya selalu
+              bersemangat untuk belajar teknologi baru dan menciptakan solusi
+              yang inovatif untuk setiap tantangan yang dihadapi.
             </p>
             <span className="italic">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
-              iure.
+              Saya siap untuk berkontribusi dalam proyek-proyek yang menantang
+              dan berkembang di perusahaan yang inovatif dan progresif.
             </span>
             {/* SIGN SVG */}
             <div className="self-end">

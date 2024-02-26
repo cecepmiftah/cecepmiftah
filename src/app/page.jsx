@@ -24,10 +24,8 @@ export default function Home() {
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            culpa quaerat voluptate adipisci perferendis fuga quae eos,
-            praesentium expedita maxime unde magnam numquam provident porro
-            commodi possimus? Enim, dolor reprehenderit.
+            Merancang dan mengembangkan antarmuka web yang menarik, estetis, dan
+            fokus pada pengalaman pengguna yang optimal.
           </p>
           <div className="w-full flex gap-4">
             <Link href={"/portfolio"}>
