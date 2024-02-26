@@ -30,7 +30,7 @@ const AboutPage = () => {
               pembangunan antarmuka pengguna yang menarik dan responsif.Saya
               mampu menciptakan pengalaman pengguna yang luar biasa. Saya juga
               memiliki keahlian dalam menggunakan kerangka kerja frontend
-              ReactJS dan NextJSuntuk mempercepat pengembangan. Saya selalu
+              ReactJS dan NextJS untuk mempercepat pengembangan. Saya selalu
               bersemangat untuk belajar teknologi baru dan menciptakan solusi
               yang inovatif untuk setiap tantangan yang dihadapi.
             </p>
