@@ -143,7 +143,11 @@ export const Navbar = () => {
             className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col justify-center items-center gap-8 text-4xl z-40"
           >
             {links.map((link) => (
-              <motion.div variants={listItemVariants} key={link.title}>
+              <motion.div
+                variants={listItemVariants}
+                key={link.title}
+                className="z-50"
+              >
                 <Link href={link.url}>{link.title}</Link>
               </motion.div>
             ))}
