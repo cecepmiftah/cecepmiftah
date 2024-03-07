@@ -11,15 +11,15 @@ export default function Home() {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full flex flex-col gap-10 px-4 lg:flex-row sm:px-8 md:px-12 lg:px-20 xl:px-48">
+      <div className="h-full flex flex-col px-4 lg:flex-row sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
           <Image src={"/hero.png"} alt="hero" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 flex flex-col lg:h-full lg:w-1/2 items-center justify-center gap-8">
+        <div className="h-1/2 flex flex-col mb-10 lg:h-full lg:w-1/2 items-center justify-center gap-8">
           {/* TITLE */}
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
+          <h1 className="text-2xl md:text-5xl lg:text-6xl font-bold">
             Tampilan yang Menginspirasi: Transformasi Ide ke Kode dalam Desain
             yang Memikat
           </h1>
